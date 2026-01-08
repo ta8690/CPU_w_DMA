@@ -1,0 +1,14 @@
+`define CPU_DATA_BITS 32
+`define R_type 5'b01100
+`define LOAD 5'b00000
+`define I_type 5'b00100
+`define JALR 5'b11001
+`define STORE 5'b01000
+`define B_type 5'b11000
+`define AUIPC 5'b00101
+`define LUI 5'b01101
+`define JAL 5'b11011
+`define CSR 5'b11100
+`define FLW 5'b00001
+`define FSW 5'b01001
+`define F_type 5'b10100
